@@ -1,0 +1,145 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Nunito", sans-serif;
+}
+
+button {
+  padding: 20px;
+  border: none;
+  background-color: rgb(7, 7, 7);
+  font-weight: 500;
+  font-size: 20px;
+  border-radius: 3px;
+  color: #fff;
+  cursor: pointer;
+  transition: 0.2s ease-in-out;
+  margin-top: 10px;
+}
+
+.login {
+  width: 100%;
+  min-height: 100vh;
+  padding-top: 75px;
+  background: #8ecae2;
+  display: flex;
+}
+h1 {
+  margin-bottom: 30px;
+  letter-spacing: normal;
+}
+
+.login .loginContainer {
+  padding: 30px;
+  margin: auto;
+  width: 100%;
+  max-width: 520px;
+  min-height: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background: radial-gradient(
+    ellipse at left bottom,
+    rgb(187, 178, 54) 0%,
+    rgba(230, 21, 55, 0.9) 59%,
+    rgba(214, 176, 49, 0.9) 100%
+  );
+  box-shadow: 0 50px 70px -20px rgba(0, 0, 0, 0.8);
+}
+
+.login .loginContainer label {
+  color: rgb(241, 236, 236);
+  margin: 14px 0;
+  display: block;
+  font-size: 22px;
+  line-height: 1;
+  font-family: "Big Shoulders Display", cursive;
+  font-family: "Lobster", cursive;
+}
+
+.login .loginContainer input {
+  width: 100%;
+  border: none;
+  outline: none;
+  font-size: 19px;
+  padding: 10px;
+  background: rgba(255, 255, 255, 0.1);
+  color: rgb(15, 15, 15);
+  letter-spacing: 1px;
+}
+.login .loginContainer textarea {
+  border: none;
+  outline: none;
+  font-size: 19px;
+  padding: 10px;
+  background: rgba(255, 255, 255, 0.1);
+  color: rgb(15, 15, 15);
+  letter-spacing: 1px;
+  height: 150px;
+  max-width: 400px;
+  min-height: 100px;
+}
+
+.login .loginContainer .btnContainer {
+  width: 100%;
+  padding: 24px 0;
+}
+
+.login .loginContainer .btnContainer p {
+  margin: 14px 0 0 0;
+  text-align: right;
+  color: #fff;
+  font-family: "Big Shoulders Display", cursive;
+  font-family: "Lobster", cursive;
+}
+
+.login .loginContainer .btnContainer p span {
+  color: yellow;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+  margin-left: 5px;
+  cursor: pointer;
+  transition: all 400ms ease-in-out;
+  font-family: "Big Shoulders Display", cursive;
+  font-family: "Lobster", cursive;
+}
+
+.login .loginContainer .btnContainer p span:hover {
+  color: rgb(233, 178, 27);
+}
+
+.login .loginContainer .errorMsg {
+  color: rgb(240, 234, 234);
+  font-size: 16px;
+}
+
+.hero {
+  width: 100%;
+  min-height: 100vh;
+  background: radial-gradient(
+    ellipse at left bottom,
+    rgb(116, 113, 83) 0%,
+    rgba(230, 21, 55, 0.9) 59%,
+    rgba(214, 176, 49, 0.9) 100%
+  );
+}
+
+.hero nav {
+  background: #af2727;
+  width: 100%;
+  padding: 20px 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.hero nav h2 {
+  color: rgb(241, 238, 238);
+}
+
+.hero nav button {
+  width: 86px;
+  padding: 8px 0;
+  background: #0c0b0b;
+}
